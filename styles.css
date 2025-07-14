@@ -117,7 +117,10 @@
 .image-section img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 140px;
+    max-width: 700px;
 }
 
 .container-white {
