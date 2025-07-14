@@ -1,1 +1,1 @@
-This webpage tries to simulate the one visible in images in order to practice and learn html and css.
+This webpage tries to simulate the one visible in the blueprint using the format (both available in the images folder) in order to practice and learn html and css.

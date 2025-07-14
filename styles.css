@@ -1,0 +1,90 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-dark {
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    background-color: #1f2137;
+    margin: -10px;
+    padding: 20px;
+    align-items: center;
+}
+
+.container-dark .container-item1 {
+    color: #f9faf8;
+    font-size: 24px;
+    margin-left: 100px;
+    
+}
+
+.container-dark .container2 {
+    display: flex;
+    margin-right: 100px;
+    margin-left: auto;
+}
+
+.container-dark .container-item2 {
+    color: #e5e8eb;
+    font-size: 18px;
+}
+
+#top {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.flexbox-vert {
+    display: flex;
+    flex-direction: column; 
+    margin: 100px;
+    flex-basis: 0;
+}
+
+.container-item3 {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.button {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px; /* 🔁 Esto redondea los bordes */
+    padding: 10px;
+    width: 150px;
+    height: 25px;
+    margin-top: 10px;
+    align-items: center;     /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    cursor: pointer;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* margen entre texto e imagen */
+    flex-wrap: wrap; /* para que en pantallas pequeñas se apilen */
+    padding: 50px 100px;
+}
+
+.text-section {
+    flex: 1;
+    max-width: 50%;
+    color: white;
+    word-wrap: break-word;
+}
+
+.image-section {
+    flex: 1;
+    max-width: 50%;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
